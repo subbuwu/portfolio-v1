@@ -1,11 +1,9 @@
-import Image from "next/image";
+import IntroSection from "@/components/Home/IntroSection";
 
 export default function Home() {
   return (
-    <div className="flex items-center flex-col justify-center gap-y-4">
-
+    <div className="max-w-7xl mx-auto">
+      <IntroSection/>
     </div>
-
-
   );
 }
